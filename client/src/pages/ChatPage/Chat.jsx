@@ -14,7 +14,7 @@ export default function Chat() {
     const [messages, setMessages] = useState([]);
 
     useEffect(() => {
-        socketRef.current = io("http://localhost:8080");
+        socketRef.current = io(import.meta.env.VITE_API_URL);
 
         console.log("Connecting to server...");
 
