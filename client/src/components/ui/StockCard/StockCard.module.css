@@ -1,0 +1,105 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  margin: 10px 0;
+  background: #111827;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  object-fit: contain;
+  background: white;
+}
+
+.middle {
+  flex: 1;
+  margin-left: 12px;
+}
+
+.symbol {
+  font-size: 16px;
+  margin: 0;
+  color: white;
+}
+
+.name {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 2px 0;
+}
+
+.industry {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.right {
+  text-align: right;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.positive {
+  font-size: 12px;
+  color: #22c55e;
+}
+
+.negative {
+  font-size: 12px;
+  color: #ef4444;
+}
+
+.portfolioSection {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.portfolioRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 12px;
+}
+
+.label {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.value {
+    color: #e5e7eb;
+    font-weight: 600;
+}
+
+.valueMuted {
+    color: rgba(255, 255, 255, 0.4);
+}
